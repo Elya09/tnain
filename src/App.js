@@ -9,7 +9,6 @@ function App(){
  const [output, setOutput] = useState([]);
 
  useEffect(() => {
-
    fetch("https://jsonplaceholder.typicode.com/todos")
        .then(res => res.json())
        .then(res => setData(res))
